@@ -15,7 +15,7 @@ class DataProductModel {
       mProducts.add(ProductModel.fromJson(element));
     });*/
 
-    for (Map<String, dynamic> eachMap in json['pr oducts']) {
+    for (Map<String, dynamic> eachMap in json['products']) {
       mProducts.add(ProductModel.fromJson(eachMap));
     }
 
